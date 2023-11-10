@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/logo.png?w=50
+Tagline: Noah Hjelm
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      url: https://github.com/Nohj23studentbth?tab=repositories
       icon: github
 ---

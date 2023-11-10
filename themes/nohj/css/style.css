@@ -37,6 +37,8 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+    background-color: #3498db; /* Dodger Blue */
+    padding: 1em;
 }
 
 /* Title */
@@ -58,11 +60,12 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: #3498db; /* Dodger Blue */
 }
 
 .title p {
     font-style: italic;
+    color: #2c3e50; /* Midnight Blue */
 }
 
 /* Footer */
@@ -70,23 +73,26 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 1px solid #2c3e50; /* Midnight Blue */
+    background-color: #3498db; /* Dodger Blue */
+    padding: 1em;
 }
 
 .footer a {
-    color: #222;
+    color: #2c3e50; /* Midnight Blue */
 }
 
 .footer .social {
     font-size: 2rem;
+    color: #3498db; /* Dodger Blue */
 }
 
-/* Typografy */
+/* Typography */
 
 body {
-    font-family: sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.5rem;
-    color: #444;
+    color: #2c3e50; /* Midnight Blue */
 }
 
 p, td, th, li, dd {
@@ -98,32 +104,35 @@ p, td, th, li, dd {
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
+    color: #3498db; /* Dodger Blue */
 }
 
 img {
     max-width: 100%;
+    border-radius: 0.3em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
+/* Additional Styling for Code/Pre/Blockquote */
 
 /* Code */
 
 code {
     margin: 0 0.1em;
     padding: 0.1em 0.2em;
-    border: 1px solid #ccc;
+    border: 1px solid #3498db; /* Dodger Blue */
     border-radius: 0.3em;
-    background: #f5f5f5;
-    font-family: monospace;
+    background: #fff;
+    font-family: 'Courier New', monospace;
     font-size: 0.85rem;
     line-height: 1.9824;
 }
 
 pre {
     padding: 0 1em;
-    border: 1px solid #ccc;
+    border: 1px solid #3498db; /* Dodger Blue */
     border-radius: 0.3em;
-    background: #f5f5f5;
+    background: #fff;
 }
 
 pre code {
@@ -142,5 +151,7 @@ blockquote {
     font-style: italic;
     margin-left: 1em;
     padding-left: 1em;
-    border-left: 0.5em solid #f5f5f5;
+    border-left: 0.5em solid #3498db; /* Dodger Blue */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
