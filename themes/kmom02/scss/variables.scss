@@ -1,0 +1,23 @@
+$nourivre-1-hex: #FF6B6B;
+$nourivre-2-hex: #000;
+$nourivre-3-hex: #6B6BFF;
+$nourivre-4-hex: #FFD166;
+$nourivre-5-hex: #FF6B98;
+
+$nourivre-1-rgba: rgba($nourivre-1-hex, 0.8);
+$nourivre-2-rgba: rgba($nourivre-2-hex, 0.8);
+$nourivre-3-rgba: rgba($nourivre-3-hex, 0.8);
+$nourivre-4-rgba: rgba($nourivre-4-hex, 0.8);
+$nourivre-5-rgba: rgba($nourivre-5-hex, 0.8);
+
+$gradient: linear-gradient(120deg, $nourivre-1-rgba, $nourivre-4-rgba, $nourivre-5-rgba);
+
+$font-color: $nourivre-2-hex;
+$font-alternative-color: $nourivre-4-hex;
+
+$header-font: 'Vina Sans', sans-serif;
+$paragraph-font: 'Kanit', sans-serif;
+
+$vertical-rhythm: 1rem;
+
+$max-width-main: 800px;

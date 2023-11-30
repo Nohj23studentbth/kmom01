@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+  
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+.main {
+    flex: 1;
+}
+  
+.footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 4px solid $nourivre-1-hex;
+    background-color: $nourivre-3-hex;
+    padding: 2 * $vertical-rhythm 3 * $vertical-rhythm;
+    color: $font-alternative-color;
+}
+  
+.footer a {
+    color: $font-alternative-color;
+}
+  
+.footer .social {
+    font-size: 6rem;
+    margin-top: 1rem;
+}
+  
