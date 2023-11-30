@@ -1,5 +1,5 @@
 ---
-Title: Noah Hjelm
+Title: Home
 Description: This is our index page.
 ---
 
