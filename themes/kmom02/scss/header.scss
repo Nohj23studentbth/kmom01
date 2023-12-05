@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 4px solid $nourivre-1-hex;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    background-size: cover;
 }
 
 .site-header {
@@ -10,6 +12,7 @@
     align-items: center;
 }
 
+/* Your existing styles remain unchanged */
 .header a {
     font-weight: bold;
     text-decoration: none;
