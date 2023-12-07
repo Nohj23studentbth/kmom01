@@ -1,73 +1,63 @@
-/* Global styles */
 .tech-main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #2c3e50; /* Set a background color */
+    background-color: #2c3e50;
 }
 
-/* Shared container styles */
 %shared-container {
     display: flex;
-    flex-direction: row; /* Change flex direction to row */
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center; /* Center content vertically */
+    align-items: center;
     width: 80%;
     max-width: 1200px;
     background: linear-gradient(to right, #3498db, #2ecc71);
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Increase the shadow for a more dramatic effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     padding: 30px;
 }
 
-/* Styles for .single-technology */
 .single-technology {
     @extend %shared-container;
 }
 
-/* Styles for .boxing */
 .boxing {
-    background-color: #3498db; /* Change the background color */
-    color: $font-color; /* Set text color to white */
+    background-color: #3498db;
+    color: $font-color;
     @extend %shared-container;
 }
 
-/* Styles for .tech-menu and .tech-content */
 .tech-menu,
 .tech-content {
-    width: 48%; /* Adjust the width as needed */
-    padding: 20px; /* Increase padding for a softer look */
+    width: 48%;
+    padding: 20px;
     color: $font-color;
 }
 
 .boxing:hover {
-    transform: scale(1.05); /* Scale up on hover for a playful effect */
-    transition: transform 0.3s ease-out; /* Add a smooth transition */
+    transform: scale(1.05);
+    transition: transform 0.3s ease-out;
 }
 
-/* Your styling for the link within h3 elements goes here */
 .post-link {
-    color: $font-color; /* Use the variable for text color */
-    text-decoration: none; /* Remove default underline */
-    /* Add any other styles you want */
+    color: $font-color;
+    text-decoration: none;
 }
 
-/* Change text color and add underline on hover */
 .post-link:hover {
-    color: #fff; /* White color on hover */
-    text-decoration: underline; /* Add underline on hover */
+    color: #fff;
+    text-decoration: underline;
 }
 
-/* Define the text color and underline for the myText class */
 .post {
-    color: #ff00; /* Red color, change this to your desired default text color */
-    text-decoration: none; /* Remove underline by default */
-    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out; /* Add transitions for smooth color and text-decoration changes */
+    color: #ff00;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
 }
 
-/* Change text color to white and add underline on hover */
 .post:hover {
-    color: #fff; /* White color on hover */
-    text-decoration: underline; /* Add underline on hover */
+    color: #fff;
+    text-decoration: underline;
 }
