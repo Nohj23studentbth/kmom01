@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     border-top: 4px solid $nourivre-1-hex;
-    background: linear-gradient(to right, #3498db, #2ecc71); /* Gradient background */
+    background: $footandheadcol;
     padding: 2 * $vertical-rhythm 3 * $vertical-rhythm;
     color: $font-alternative-color;
 }
@@ -33,15 +33,14 @@ body {
 }
 
 .footer a:hover {
-    color: #fff; /* Change link color on hover */
+    color: $foothover;
 }
 
 .footer .social {
-    font-size: 3rem; /* Adjusted for better visual balance */
+    font-size: 3rem;
     margin-top: 1rem;
 }
 
-/* Add additional styles for the social icons if needed */
 .footer .social i {
     margin-right: 1rem;
 }

@@ -6432,8 +6432,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  color: #333;
-  background-color: #FFD166;
+  color: #DDD;
+  background-color: #333;
 }
 
 * {
@@ -6444,7 +6444,7 @@ body {
 
 html, body {
   font-size: 16px;
-  color: #333;
+  color: #777;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -6464,8 +6464,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 4px solid #FF6B6B;
-  background: linear-gradient(to right, #FF6B6B, #B6FF6B);
+  border-bottom: 4px solid #333;
+  background: linear-gradient(to right, #333, #000);
   background-size: cover;
 }
 
@@ -6477,7 +6477,7 @@ a {
 .header a {
   font-weight: bold;
   text-decoration: none;
-  color: #333;
+  color: #DDD;
 }
 
 .nav a {
@@ -6485,19 +6485,19 @@ a {
   font-size: 1.7rem;
   text-decoration: none;
   padding: 0 1.7rem;
-  color: #333;
+  color: #DDD;
 }
 
 .nav a:hover {
-  border-bottom: 4px solid #FF6B6B;
+  border-bottom: 4px solid #333;
 }
 
 .nav .active a {
-  border-bottom: 4px solid #FFF06B;
+  border-bottom: 4px solid #333;
 }
 
 .title {
-  color: #333;
+  color: #DDD;
   margin: 0;
 }
 
@@ -6523,14 +6523,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-top: 4px solid #FF6B6B;
-  background: linear-gradient(to right, #FF6B6B, #B6FF6B);
+  border-top: 4px solid #333;
+  background: linear-gradient(to right, #333, #000);
   padding: 2rem 3rem;
-  color: #333;
+  color: #777;
 }
 
 .footer a {
-  color: #333;
+  color: #777;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
@@ -6553,14 +6553,14 @@ body {
   text-align: center;
   margin: 0 auto;
   max-width: 800px;
-  background-color: #FFD166;
+  background-color: #333;
 }
 
 p {
   font-size: 1rem;
   line-height: 1.4;
   margin-bottom: 0.5rem;
-  color: #333;
+  color: #DDD;
 }
 
 .featured-content {
@@ -6623,7 +6623,7 @@ pre code {
   display: grid;
   gap: 1em;
   grid-template-columns: repeat(3, 1fr);
-  background: linear-gradient(to right, #FF6B6B, #B6FF6B);
+  background: linear-gradient(to right, #333, #000);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -6642,22 +6642,22 @@ pre code {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgb(0, 0, 0);
   transition: transform 0.3s ease-in-out;
-  color: #333;
+  color: #DDD;
 }
 
 .box.bigger {
   flex-grow: 2;
-  background-color: #2ecc71;
+  background-color: #333;
 }
 
 .box.smaller {
   flex-grow: 1;
-  background-color: #2ecc71;
+  background-color: #333;
 }
 
 .box.wide {
   flex-grow: 2;
-  background-color: #2ecc71;
+  background-color: #333;
 }
 
 .box.wide, .box.smaller {
@@ -6666,7 +6666,7 @@ pre code {
 
 .box.python {
   grid-column: span 3;
-  background-color: #2ecc71;
+  background-color: #333;
 }
 
 .box:hover {
@@ -6674,7 +6674,7 @@ pre code {
 }
 
 .my-text {
-  color: #333;
+  color: #DDD;
   text-decoration: none;
   transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
 }
@@ -6689,7 +6689,7 @@ pre code {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #FFD166;
+  background-color: #333;
 }
 
 .boxing, .single-technology {
@@ -6699,7 +6699,7 @@ pre code {
   align-items: center;
   width: 80%;
   max-width: 1200px;
-  background: linear-gradient(to right, #FF6B6B, #B6FF6B);
+  background: linear-gradient(to right, #333, #000);
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   padding: 30px;
@@ -6707,14 +6707,14 @@ pre code {
 
 .boxing {
   background-color: #3498db;
-  color: #333;
+  color: #DDD;
 }
 
 .tech-menu,
 .tech-content {
   width: 48%;
   padding: 20px;
-  color: #333;
+  color: #DDD;
 }
 
 .boxing:hover {
@@ -6723,7 +6723,7 @@ pre code {
 }
 
 .post-link {
-  color: #333;
+  color: #DDD;
   text-decoration: none;
 }
 
