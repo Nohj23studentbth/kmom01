@@ -3,7 +3,10 @@ Title: Home
 Description: This is our index page.
 ---
 
-![Bild på hund](image/hund.jpg)
+<div class="image-frame">
+    <img src="image/hund.jpg" alt="Bild på hund">
+</div>
+
 
 Välkommen till min sida, där jag delar lite om mig själv! Jag går under namnet Noah och befinner mig för närvarande på BTH,
 där jag studerar webbprogrammering på distans med ett program på 120 högskolepoäng.

@@ -10,3 +10,37 @@
     justify-content: center;
     align-items: center;
 }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+
+  .dp-image {
+    max-width: 1200px;
+    max-height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Adjust as needed */
+}
+
+.image-frame {
+  border: 5px solid #DAA520;
+  padding: 10px; /* Optional padding for some space between the border and the image */
+  display: inline-block; /* Ensures the frame only takes up the necessary space */
+}
+
+.image-frame img {
+  display: block; /* Ensures the image fills the frame properly */
+  width: 100%; /* Makes the image fill the frame horizontally */
+  height: auto; /* Maintains the aspect ratio of the image */
+}

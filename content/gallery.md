@@ -8,11 +8,11 @@ Template: gallery
 
 <div class="grid-container-gallery">
 
-<div class="gallery-item">
+<div class="gallery-item large-item">
     <!-- Picture 1 -->
     <picture>
         <a href="%base_url%?assets/img/jango.jpeg">
-            <source media="(min-width : 668px)" srcset="image/jango.jpeg">
+            <source media="(min-width : 600px)" srcset="image/jango.jpeg">
             <source media="(min-width 376px)" srcset="image/jango.jpeg?w=667&q=70">
             <img src="image/jango.jpeg?w375&q=70" class="jango" alt="jango">
         </a>
@@ -23,7 +23,7 @@ Template: gallery
     <!-- Picture 2 -->
     <picture>
         <a href="%base_url%?assets/img/sverige.jpeg">
-            <source media="(min-width : 668px)" srcset="image/sverige.jpeg">
+            <source media="(min-width : 600px)" srcset="image/sverige.jpeg">
             <source media="(min-width 376px)" srcset="image/sverige.jpeg?w=667&q=70">
             <img src="image/sverige.jpeg?w375&q=70" class="sverige" alt="sverige">
         </a>
@@ -34,7 +34,7 @@ Template: gallery
     <!-- Picture 3 -->
     <picture>
         <a href="%base_url%?assets/img/rome.jpg">
-            <source media="(min-width : 668px)" srcset="image/rome.jpg">
+            <source media="(min-width : 600px)" srcset="image/rome.jpg">
             <source media="(min-width 376px)" srcset="image/rome.jpg?w=667&q=70">
             <img src="image/rome.jpg?w375&q=70" class="rome" alt="rome">
         </a>
@@ -45,7 +45,7 @@ Template: gallery
     <!-- Picture 4 -->
     <picture>
         <a href="%base_url%?assets/img/danmark.jpeg">
-            <source media="(min-width : 668px)" srcset="image/danmark.jpeg">
+            <source media="(min-width : 600px)" srcset="image/danmark.jpeg">
             <source media="(min-width 376px)" srcset="image/danmark.jpeg?w=667&q=70">
             <img src="image/danmark.jpeg?w375&q=70" class="danmark" alt="danmark">
         </a>
@@ -56,7 +56,7 @@ Template: gallery
     <!-- Picture 5 -->
     <picture>
         <a href="%base_url%?assets/img/finland.jpg">
-            <source media="(min-width : 668px)" srcset="image/finland.jpg">
+            <source media="(min-width : 600px)" srcset="image/finland.jpg">
             <source media="(min-width 376px)" srcset="image/finland.jpg?w=667&q=70">
             <img src="image/finland.jpg?w375&q=70" class="finland" alt="finland">
         </a>
@@ -67,7 +67,7 @@ Template: gallery
     <!-- Picture 6 -->
     <picture>
         <a href="%base_url%?assets/img/halmstad.jpeg">
-            <source media="(min-width : 668px)" srcset="image/halmstad.jpeg">
+            <source media="(min-width : 600px)" srcset="image/halmstad.jpeg">
             <source media="(min-width 376px)" srcset="image/halmstad.jpeg?w=667&q=70">
             <img src="image/halmstad.jpeg?w375&q=70" class="halmstad" alt="halmstad">
         </a>
@@ -78,7 +78,7 @@ Template: gallery
     <!-- Picture 7 -->
     <picture>
         <a href="%base_url%?assets/img/jangoliten.jpeg">
-            <source media="(min-width : 668px)" srcset="image/jangoliten.jpeg">
+            <source media="(min-width : 600px)" srcset="image/jangoliten.jpeg">
             <source media="(min-width 376px)" srcset="image/jangoliten.jpeg?w=667&q=70">
             <img src="image/jangoliten.jpeg?w375&q=70" class="jangoliten" alt="jangoliten">
         </a>
@@ -89,7 +89,7 @@ Template: gallery
     <!-- Picture 8 -->
     <picture>
         <a href="%base_url%?assets/img/kor.jpeg">
-            <source media="(min-width : 668px)" srcset="image/kor.jpeg">
+            <source media="(min-width : 600px)" srcset="image/kor.jpeg">
             <source media="(min-width 376px)" srcset="image/kor.jpeg?w=667&q=70">
             <img src="image/kor.jpeg?w375&q=70" class="kor" alt="kor">
         </a>
@@ -100,7 +100,7 @@ Template: gallery
     <!-- Picture 9 -->
     <picture>
         <a href="%base_url%?assets/img/lov.jpeg">
-            <source media="(min-width : 668px)" srcset="image/lov.jpeg">
+            <source media="(min-width : 600px)" srcset="image/lov.jpeg">
             <source media="(min-width 376px)" srcset="image/lov.jpeg?w=667&q=70">
             <img src="image/lov.jpeg?w375&q=70" class="lov" alt="lov">
         </a>
