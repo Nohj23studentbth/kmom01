@@ -1,13 +1,14 @@
-{% include 'incl/header.twig' %}
+<!DOCTYPE html>
+<html lang="sv">
 
+<head>
+    {% include 'incl/header.twig' %}
+</head>
 <body>
     {% include 'incl/nav.twig' %}
-
     <div class="main" role="main">
         {{ content }}
     </div>
-    
     {% include 'incl/footer.twig' %}
 </body>
-
 </html>

@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="sv">
+
 {% include 'incl/header.twig' %}
 
 <body>
@@ -10,7 +13,7 @@
                 
                 {% for page in pages("technology")|sort_by("time")|reverse if not page.hidden %}
                     <div class="post">
-                        <h3><a href="{{ page.url }}" class="post-link">{{ page.title }}</a></h3>
+                        <h2><a href="{{ page.url }}" class="post-link">{{ page.title }}</a></h2>
                         <p class="date">{{ page.date_formatted }}</p>
                         <p class="excerpt">{{ page.description }}</p>
                     </div>

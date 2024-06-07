@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    {% include 'incl/header.twig' %}
+</head>
+<body>
+    {% include 'incl/nav.twig' %}
+    <div class="main" role="main">
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ meta.title }}</title>
+<div class="markdown-box">
+    <pre><code>
+{{ content|raw }}
+    </code></pre>
+</div>
+    </div>
+    {% include 'incl/footer.twig' %}
+</body>
+</html>

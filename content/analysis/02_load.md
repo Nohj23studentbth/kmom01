@@ -36,7 +36,10 @@ Jag kommer använda Google Pagespeed-verktyget för att mäta laddningstiderna f
 ## Detta är resultaten från de alla sidorna:
 
 <div class="centered">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTLNOilnva4qVWTccYJ8h3zNvrjASnR637RdEXMr3jb85xz0PjPFoq6psYDH7h6dGBkpU9KNjTYdQbm/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="614" height="150"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTLNOilnva4qVWTccYJ8h3zNvrjASnR637RdEXMr3jb85xz0PjPFoq6psYDH7h6dGBkpU9KNjTYdQbm/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" 
+            width="614" 
+            height="150" 
+            title="Results"></iframe>
 </div>
 
 <div class="image-container">
